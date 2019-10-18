@@ -1,0 +1,30 @@
+{
+  "name": "Old Youtube Layout",
+  "author": "Abdulla - 0d Team",
+  "version": "1.0",
+  "description": "Automatically change youtube layout to the older one. This extension only adds 1 parameter to the url. No GENIUS stuff. - 0d Team",
+  "background": {
+      "scripts": ["background.js"],
+      "persistent": true
+    },
+	"permissions": [
+		"tabs",
+		"webRequest",
+		"*://*.youtube.com/*",
+		"webRequestBlocking"
+	],
+	"icons":{ 	"16": "icon16.png",
+				"32": "icon32.png",
+				"48": "icon48.png",
+				"128": "icon128.png"
+	},
+	"browser_action": {
+		"default_icon": {
+			"16": "icon16.png",
+			"32": "icon32.png",
+			"48": "icon48.png",
+			"128": "icon128.png"
+		}
+	},
+  "manifest_version": 2
+}
